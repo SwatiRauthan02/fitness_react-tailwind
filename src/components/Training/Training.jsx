@@ -28,7 +28,7 @@ const Training = ({ contents }) => {
                 <CardDescription className="text-white text-[16px] font-normal leading-[157%]">{content.description}</CardDescription>
               </CardContent>
               <CardFooter>
-                <Button>Get Started</Button>
+                <Button className="rounded-[18px]">Get Started</Button>
               </CardFooter>
             </Card>
           ))}

@@ -224,8 +224,27 @@
 
   #progressContainer {
     background-image: url('./assets/bg-img.png');
-    @apply bg-no-repeat bg-center bg-cover;
+    @apply bg-no-repeat bg-top bg-cover;
   }
   
+   #planCard {
+    background: linear-gradient(rgba(172, 169, 172, 0.6), rgba(0, 0, 0, 0.9)), url('./assets/img2.jpg');
+    @apply bg-no-repeat bg-top bg-contain;
+  }
+
+  .startimgcontainer {
+    background: linear-gradient(rgba(114, 113, 114, 0.7), rgba(51, 51, 51, 0.8)), url('./assets/img2.jpg');
+    @apply bg-no-repeat bg-center bg-cover;
+  }
+
+  .workimgcontainer {
+    background: linear-gradient(rgba(114, 113, 114, 0.7), rgba(51, 51, 51, 0.8)), url('./assets/img3.jpg');
+    @apply bg-no-repeat bg-center bg-cover;
+  }
+
+  .gymimgcontainer {
+    background: linear-gradient(rgba(114, 113, 114, 0.7), rgba(51, 51, 51, 0.8)), url('./assets/img4.jpg');
+    @apply bg-no-repeat bg-center bg-cover;
+  }
 }
 
