@@ -21,6 +21,7 @@ const Home = () => {
       <Brand />
       <TrainingData />
       <Progress/>
+      <PlansData/>
       <StepsData/>
       <Map/>
       <FAQ/>
@@ -28,7 +29,6 @@ const Home = () => {
       <Tex/>
       <Footer/>
       {/* <Plans/> */}
-      {/* <PlansData/> */}
     </div>
   );
 };

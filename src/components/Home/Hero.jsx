@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
             <div className="btncontainer flex mt-[62px] gap-10">
               <Input className='rounded-[25px] !bg-white' placeholder='Enter your Email here' />
-              <Button variant={"orange"} className="py-[18px] !px-[26px] text-[22px] font-normal">
+              <Button variant={"orange"} className="py-[18px] !px-[26px] text-[22px] font-normal w-[225px] h">
                 Get Started <ArrowRight />
               </Button>
             </div>
